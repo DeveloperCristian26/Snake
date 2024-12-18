@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cabeza {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    top: 100px;
+    border-radius: 50%;
+    /* background-color: rgba(30,143,173,255); */
+    background-image: linear-gradient(#127394,#4098c7);
+
+}
+
+.ojos{
+    position: absolute;
+    top:60px;
+    left: 16px;
+    bottom: 17px;
+    width: 60px;
+    height: 80px;
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 170px 0;
+}
+
+.pupilas{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    right: initial;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: black;
+    box-shadow: 170px 0;
+}
+
+.naris {
+    position: absolute;
+    top: 160px;
+    left: 110px;
+    /* transform: rotate(-35deg); */
+    width: 4px;
+    height: 4px;
+    background-color: black;
+
+}
+
+.naris-r {
+    position: absolute;
+    top: 160px;
+    left: 135px;
+    /* transform: rotate(35deg); */
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.boca {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    /* transform: rotate(35deg); */
+    width: 87px;
+    height: 2px;
+    /* border-radius: 50%; */
+    background-color: black;
+    box-shadow: 132px 0;
+}
+
+span{
+    position: absolute;
+    top: -9px; 
+    left: 84px;
+    /* bottom: 30px; */
+    transform: rotate(-35deg);
+    width: 29px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.punta {
+    position: absolute;
+    top: -9px; 
+    left: 107px;
+    /* bottom: 30px; */
+    transform: rotate(35deg);
+    width: 29px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: black;
+
+}
